@@ -19,6 +19,19 @@ bookRoute.get("/", (req,res) => {
     // res.send("Books Route")
 })
 
+// bookRoute.get("/", (req, res) => {
+//     res.send(`
+//         <h1>List of Books</h1>
+//         <ul>
+//             <li>Kamarachi and siblings</li>
+//             <li>Dera and siblings</li>
+//             <li>The Onuigbos</li>
+//             <li>The Esther All</li>
+//             <li>The Kainene and siblings</li>
+//         </ul>
+//     `);
+// });
+
 // READ BY ID 
 
 bookRoute.get("/:id", (req,res) => {
